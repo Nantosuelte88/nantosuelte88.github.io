@@ -188,6 +188,12 @@ ul {
   padding-left: 2rem;
 }
 
+ul.list_project{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
 ol,
 ul,
 dl {
@@ -8127,7 +8133,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #008E9B !important;
 }
 
 .bg-secondary {
@@ -11009,7 +11015,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #008E9B;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -11030,7 +11036,7 @@ html {
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
-    line-height: 2.5rem;
+    line-height: 3rem;
   }
 }
 
